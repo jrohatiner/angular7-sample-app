@@ -1,8 +1,5 @@
-# Angular Core Workshop
-
-We are going to use the Angular CLI and NRWL Extensions extensively in the workshop to streamline development and free us up to focus on core concepts.
-
-Follow the steps below to get started!
+#see the live site here: [angular7-sample-app-dashboard](https://jrohatiner.github.io/angular7-sample-app/docs/angular7-sample-app/login/ "Dashboard Login")
+username techie@email.com password techie
 
 ## Getting Started
 
@@ -23,7 +20,7 @@ npm install -g @nrwl/schematics
 After installing it you can create a new Nx workspace by running:
 
 ```
-create-nx-workspace angular-core-workshop
+create-nx-workspace angular7-sample-app
 ```
 
 You are good to go!
