@@ -1,4 +1,4 @@
-<ui-toolbar [isLoggedIn]="isLoggedIn$ | async" [title]="title" [sidenav]="sidenav" (logout)="logout()"></ui-toolbar>
+<ui-toolbar [isLoggedIn]="isLoggedIn$ | async" [title]="title" [sidenav]="sidenav" (logout)="logout($event)"></ui-toolbar>
 
 <mat-sidenav-container>
   <mat-sidenav [opened]="isSidenaveOpen(sidenav, isLoggedIn$ | async)" #sidenav mode="side" class="app-sidenav">
